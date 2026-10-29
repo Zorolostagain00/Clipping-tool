@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Video inputs & cache (exclude large media files)
+input/*
+!input/.gitkeep
+input/yt_cache/
+
+# Output clips & reports
+output/clips/*
+!output/clips/.gitkeep
+output/logs/*
+!output/logs/.gitkeep
+
+# Whisper models cache
+models/*
+!models/.gitkeep
+
+# OS / Editor generated files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp

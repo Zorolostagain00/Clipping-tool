@@ -1,0 +1,9 @@
+torch
+openai-whisper
+ffmpeg-python
+tqdm
+colorama
+rich
+numpy
+streamlit
+yt-dlp
