@@ -24,9 +24,16 @@ output/logs/*
 models/*
 !models/.gitkeep
 
+# ClipForge Studio App Data & Cache
+clipforge/data/
+clipforge/.pytest_cache/
+clipforge/desktop/node_modules/
+clipforge/desktop/dist/
+
 # OS / Editor generated files
 .DS_Store
 Thumbs.db
 .vscode/
 .idea/
 *.swp
+

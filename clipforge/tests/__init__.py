@@ -1,0 +1,2 @@
+# ClipForge tests package
+
